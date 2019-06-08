@@ -1,0 +1,214 @@
+body
+{
+   background-color: #FFFFFF;
+   background-image: url(images/bg-6-full.jpg);
+   background-attachment: scroll;
+   background-position: left top;
+   background-repeat: repeat;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text17 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #000000 solid;
+   padding: 10px 10px 10px 10px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text17 div
+{
+   text-align: left;
+}
+#Banner9
+{
+   background-color: #102A35;
+   background-image: none;
+   border: 0px #1E90FF solid;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-weight: bold;
+   font-size: 19px;
+   text-align: center;
+}
+#Banner9 span
+{
+   display: block;
+   height: 19px;
+   margin: 4px 0px 4px 0px;
+}
+#Banner9 span:before, #Banner9 span:after 
+{
+   display: block;
+   position: absolute;
+   top: 27px;
+   left: 0;
+   right: 0;
+}
+#Banner9 span:before 
+{
+   content: "प्रवेशासाठी लागणारी कागदपत्रे";
+   opacity: .3;
+   -webkit-transform: scaleY(-1);
+   -moz-transform: scaleY(-1);
+   -ms-transform: scaleY(-1);
+   -o-transform: scaleY(-1);
+   transform: scaleY(-1);
+}
+#wb_BulletedList4
+{
+   border: 0px #C0C0C0 solid;
+   border-radius: 2px;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_BulletedList4 .bullet
+{
+   color: #9370DB;
+   float: left;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+   padding: 2px;
+   text-align: left;
+   vertical-align: top;
+   width: 21px;
+}
+#wb_BulletedList4 .item
+{
+   float: left;
+   padding: 2px 0 2px 0;
+   vertical-align: top;
+   width: 300px;
+}
+#wb_BulletedList4 .item0
+{
+   height: 28px;
+   text-align: left;
+}
+#wb_BulletedList4 .item1
+{
+   height: 28px;
+   text-align: left;
+}
+#wb_BulletedList4 .item2
+{
+   height: 28px;
+   text-align: left;
+}
+#wb_BulletedList4 .item3
+{
+   height: 28px;
+   text-align: left;
+}
+#wb_BulletedList4 .item4
+{
+   height: 20px;
+   text-align: left;
+}
+#wb_BulletedList4 .item5
+{
+   height: 28px;
+   text-align: left;
+}
+#wb_BulletedList4 .item6
+{
+   height: 28px;
+   text-align: left;
+}
+#wb_Text19 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text19 div
+{
+   text-align: left;
+}
+#Line5
+{
+   border-width: 0;
+   height: 216px;
+   width: 7px;
+}
+#Shape17
+{
+   border-width: 0;
+}
+#Shape18
+{
+   border-width: 0;
+}
+#wb_BulletedList1
+{
+   border: 0px #C0C0C0 solid;
+   border-radius: 2px;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_BulletedList1 .bullet
+{
+   color: #9370DB;
+   float: left;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   font-size: 19px;
+   padding: 1px;
+   text-align: left;
+   vertical-align: top;
+   width: 23px;
+}
+#wb_BulletedList1 .item
+{
+   float: left;
+   padding: 1px 0 1px 0;
+   vertical-align: top;
+   width: 346px;
+}
+#wb_BulletedList1 .item0
+{
+   height: 54px;
+   text-align: left;
+}
+#wb_BulletedList1 .item1
+{
+   height: 28px;
+   text-align: left;
+}
+#wb_BulletedList1 .item2
+{
+   height: 28px;
+   text-align: left;
+}
+#wb_BulletedList1 .item3
+{
+   height: 28px;
+   text-align: left;
+}
+#wb_BulletedList1 .item4
+{
+   height: 22px;
+   text-align: left;
+}
+#wb_BulletedList1 .item5
+{
+   height: 28px;
+   text-align: left;
+}
+#wb_BulletedList1 .item6
+{
+   height: 28px;
+   text-align: left;
+}

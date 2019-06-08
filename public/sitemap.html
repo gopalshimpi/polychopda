@@ -1,0 +1,312 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sitemap : Chopda Polytechnic</title>
+<meta name="author" content="G.B.Shimpi">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="1 day">
+<meta name="generator" content="Gsoft Solution Framework">
+<link href="polyLOGO.JPG" rel="shortcut icon" type="image/x-icon">
+<script src="jscookmenu.min.js"></script>
+<link href="Poly_Website.css" rel="stylesheet">
+<link href="sitemap.css" rel="stylesheet">
+<!-- Insert Google Analystics code here -->
+</head>
+<body>
+<div id="space"><br></div>
+<div id="container">
+<div id="wb_Shape29" style="position:absolute;left:175px;top:531px;width:828px;height:523px;z-index:23;">
+<img src="images/img0135.png" id="Shape29" alt="" style="width:828px;height:523px;"></div>
+<div id="wb_Shape31" style="position:absolute;left:175px;top:1150px;width:828px;height:468px;z-index:24;">
+<img src="images/img0138.png" id="Shape31" alt="" style="width:828px;height:468px;"></div>
+<div id="wb_Text10" style="position:absolute;left:535px;top:1493px;width:170px;height:16px;z-index:25;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Google Maps..Please Wait</span></div>
+<div id="wb_Image2" style="position:absolute;left:499px;top:1232px;width:250px;height:250px;z-index:26;">
+<img src="images/ajax-loader-2.gif" id="Image2" alt=""></div>
+<div id="wb_JavaScript2" style="position:absolute;left:187px;top:1161px;width:802px;height:447px;z-index:27;">
+<div id="GoogleMaps" style="width:100%;height:100%;"></div>
+<script type='text/javascript' src='https://maps.google.com/maps/api/js?key=YOUR_KEY'></script>
+<script>
+var map;
+var marker;
+var geocoder;
+function GoogleMapInit(id, latitude, longitude, address) 
+{    
+   var latlng = new google.maps.LatLng(latitude, longitude);
+   var latlngMarker = new google.maps.LatLng(latitude, longitude);
+   var mapOptions = 
+   {        
+      center: latlng,        
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      mapTypeControl: true,        
+      scrollwheel: true,
+      streetViewControl: true,        
+      zoom: 10,
+      zoomControl: true,        
+      zoomControlOptions: { style: google.maps.ZoomControlStyle.SMALL }
+   }
+   element = document.getElementById(id);
+   map = new google.maps.Map(element, mapOptions);   
+   marker = new google.maps.Marker({ draggable:true, map: map, position: latlngMarker});   
+   geocoder = new google.maps.Geocoder();
+   geocoder.geocode({'address': address}, function(results, status) 
+   {
+      if (status == google.maps.GeocoderStatus.OK) 
+      {
+         map.setCenter(results[0].geometry.location);
+         var marker = new google.maps.Marker(
+         {
+            map: map, 
+            position: results[0].geometry.location
+         });
+      } 
+      else 
+      {
+        //    alert("Geocode was not successful: " + status);
+      }
+   });
+}
+GoogleMapInit('GoogleMaps', 40.7127837, -74.00594130000002, 'Chopda,Maharashtra');
+</script>
+
+</div>
+<div id="wb_Line2" style="position:absolute;left:0px;top:470px;width:1170px;height:1px;z-index:28;">
+<img src="images/img0093.png" id="Line2" alt=""></div>
+<div id="wb_Image12" style="position:absolute;left:0px;top:159px;width:41px;height:43px;z-index:29;">
+<a href="./index.html"><img src="images/img0102.png" id="Image12" alt="Home" title="Home Page"></a></div>
+<div id="wb_Shape5" style="position:absolute;left:465px;top:485px;width:241px;height:39px;z-index:30;">
+<img src="images/img0103.png" id="Shape5" alt="" style="width:241px;height:39px;"></div>
+<div id="wb_Line4" style="position:absolute;left:0px;top:1072px;width:1170px;height:1px;z-index:31;">
+<img src="images/img0104.png" id="Line4" alt=""></div>
+<div id="wb_Shape1" style="position:absolute;left:375px;top:786px;width:137px;height:52px;z-index:32;">
+<img src="images/img0105.png" id="Shape1" alt="" style="width:137px;height:52px;"></div>
+<div id="wb_Shape10" style="position:absolute;left:222px;top:742px;width:339px;height:22px;z-index:33;">
+<img src="images/img0106.png" id="Shape10" alt="" style="width:339px;height:22px;"></div>
+<div id="wb_Shape11" style="position:absolute;left:437px;top:764px;width:20px;height:22px;z-index:34;">
+<img src="images/img0107.png" id="Shape11" alt="" style="width:20px;height:22px;"></div>
+<div id="wb_Shape12" style="position:absolute;left:559px;top:569px;width:22px;height:460px;z-index:35;">
+<img src="images/img0108.png" id="Shape12" alt="" style="width:22px;height:460px;"></div>
+<div id="wb_Shape13" style="position:absolute;left:612px;top:582px;width:137px;height:52px;z-index:36;">
+<img src="images/img0109.png" id="Shape13" alt="" style="width:137px;height:52px;"></div>
+<div id="wb_Shape14" style="position:absolute;left:581px;top:602px;width:31px;height:17px;z-index:37;">
+<img src="images/img0110.png" id="Shape14" alt="" style="width:31px;height:17px;"></div>
+<div id="wb_Shape15" style="position:absolute;left:612px;top:786px;width:164px;height:52px;z-index:38;">
+<img src="images/img0111.png" id="Shape15" alt="" style="width:164px;height:52px;"></div>
+<div id="wb_Line1" style="position:absolute;left:364px;top:607px;width:191px;height:139px;z-index:39;">
+<img src="images/img0112.png" id="Line1" alt=""></div>
+<div id="wb_Shape16" style="position:absolute;left:581px;top:805px;width:31px;height:17px;z-index:40;">
+<img src="images/img0113.png" id="Shape16" alt="" style="width:31px;height:17px;"></div>
+<div id="wb_Shape17" style="position:absolute;left:610px;top:869px;width:166px;height:61px;z-index:41;">
+<img src="images/img0114.png" id="Shape17" alt="" style="width:166px;height:61px;"></div>
+<div id="wb_Shape18" style="position:absolute;left:581px;top:894px;width:31px;height:17px;z-index:42;">
+<img src="images/img0115.png" id="Shape18" alt="" style="width:31px;height:17px;"></div>
+<div id="wb_Line3" style="position:absolute;left:365px;top:598px;width:199px;height:148px;z-index:43;">
+<img src="images/img0116.png" id="Line3" alt=""></div>
+<div id="wb_Line5" style="position:absolute;left:218px;top:746px;width:339px;height:2px;z-index:44;">
+<img src="images/img0117.png" id="Line5" alt=""></div>
+<div id="wb_Line6" style="position:absolute;left:565px;top:565px;width:2px;height:452px;z-index:45;">
+<img src="images/img0118.png" id="Line6" alt=""></div>
+<div id="wb_Line7" style="position:absolute;left:444px;top:746px;width:2px;height:36px;z-index:46;">
+<img src="images/img0119.png" id="Line7" alt=""></div>
+<div id="wb_Line8" style="position:absolute;left:565px;top:806px;width:43px;height:2px;z-index:47;">
+<img src="images/img0120.png" id="Line8" alt=""></div>
+<div id="wb_Line9" style="position:absolute;left:565px;top:896px;width:43px;height:2px;z-index:48;">
+<img src="images/img0121.png" id="Line9" alt=""></div>
+<div id="wb_Line10" style="position:absolute;left:791px;top:714px;width:43px;height:2px;z-index:49;">
+<img src="images/img0122.png" id="Line10" alt=""></div>
+<div id="wb_Shape19" style="position:absolute;left:241px;top:691px;width:55px;height:22px;z-index:50;">
+<img src="images/img0123.png" id="Shape19" alt="" style="width:55px;height:22px;"></div>
+<div id="wb_Text2" style="position:absolute;left:241px;top:722px;width:95px;height:16px;z-index:51;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Amalner Road</span></div>
+<div id="wb_Shape20" style="position:absolute;left:581px;top:742px;width:324px;height:22px;z-index:52;">
+<img src="images/img0124.png" id="Shape20" alt="" style="width:324px;height:22px;"></div>
+<div id="wb_Line11" style="position:absolute;left:577px;top:746px;width:324px;height:2px;z-index:53;">
+<img src="images/img0125.png" id="Line11" alt=""></div>
+<div id="wb_Shape21" style="position:absolute;left:813px;top:691px;width:55px;height:22px;z-index:54;">
+<img src="images/img0126.png" id="Shape21" alt="" style="width:55px;height:22px;"></div>
+<div id="wb_Text5" style="position:absolute;left:810px;top:718px;width:75px;height:16px;z-index:55;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Yawal Road</span></div>
+<div id="wb_Shape22" style="position:absolute;left:512px;top:963px;width:23px;height:47px;z-index:56;">
+<img src="images/img0127.png" id="Shape22" alt="" style="width:23px;height:47px;"></div>
+<div id="wb_Text6" style="position:absolute;left:400px;top:978px;width:112px;height:16px;z-index:57;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Pharmacy College</span></div>
+<div id="wb_Shape24" style="position:absolute;left:612px;top:963px;width:164px;height:78px;z-index:58;">
+<img src="images/img0128.png" id="Shape24" alt="" style="width:164px;height:78px;"></div>
+<div id="wb_Shape25" style="position:absolute;left:581px;top:988px;width:31px;height:17px;z-index:59;">
+<img src="images/img0129.png" id="Shape25" alt="" style="width:31px;height:17px;"></div>
+<div id="wb_Line12" style="position:absolute;left:565px;top:990px;width:43px;height:2px;z-index:60;">
+<img src="images/img0130.png" id="Line12" alt=""></div>
+<div id="wb_Line13" style="position:absolute;left:568px;top:602px;width:38px;height:2px;z-index:61;">
+<img src="images/img0131.png" id="Line13" alt=""></div>
+<div id="wb_Shape26" style="position:absolute;left:813px;top:786px;width:137px;height:52px;z-index:62;">
+<img src="images/img0132.png" id="Shape26" alt="" style="width:137px;height:52px;"></div>
+<div id="wb_Shape27" style="position:absolute;left:875px;top:764px;width:20px;height:22px;z-index:63;">
+<img src="images/img0133.png" id="Shape27" alt="" style="width:20px;height:22px;"></div>
+<div id="wb_Line14" style="position:absolute;left:882px;top:746px;width:2px;height:36px;z-index:64;">
+<img src="images/img0134.png" id="Line14" alt=""></div>
+<div id="wb_Shape28" style="position:absolute;left:296px;top:550px;width:45px;height:53px;z-index:65;">
+<img src="images/img0136.png" id="Shape28" alt="" style="width:45px;height:53px;"></div>
+<div id="wb_Text9" style="position:absolute;left:291px;top:618px;width:62px;height:24px;z-index:66;">
+<span style="color:#000000;font-family:Arial;font-size:21px;"><strong>North</strong></span></div>
+<div id="wb_Shape30" style="position:absolute;left:465px;top:1097px;width:241px;height:39px;z-index:67;">
+<img src="images/img0137.png" id="Shape30" alt="" style="width:241px;height:39px;"></div>
+<div id="wb_Line15" style="position:absolute;left:0px;top:1658px;width:1177px;height:2px;z-index:68;">
+<img src="images/img0151.png" id="Line15" alt=""></div>
+<div id="wb_Image4" style="position:absolute;left:0px;top:193px;width:1180px;height:265px;z-index:69;">
+<img src="images/sitemap-page-banner.jpg" id="Image4" alt=""></div>
+<div id="wb_MenuBar1" style="position:absolute;left:43px;top:160px;width:1186px;height:33px;z-index:1070;">
+<div id="MenuBar1">
+<ul style="display:none;">
+<li><span></span><span>About&nbsp;College</span>
+<ul>
+<li><span></span><a href="./vision-mission.html" target="_self" title="Vision &amp; Mission">Vision&nbsp;&amp;&nbsp;Mission</a>
+</li>
+<li><span></span><a href="./courses_offerd.html" target="_self" title="Courses Offerd">Courses&nbsp;Offerd</a>
+</li>
+<li><span></span><a href="./sitemap.html" target="_self" title="Site Map">Site&nbsp;Map</a>
+</li>
+</ul>
+</li>
+<li><span></span><a href="./management.html" target="_self" title="Management">Management</a>
+</li>
+<li><span></span><span>&nbsp;Infrastructure</span>
+<ul>
+<li><span></span><a href="./library.html" target="_self" title="Library              ">Library&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+</li>
+<li><span></span><a href="./hostels&gym.html" target="_self" title="Hostel &amp; Gymnasium">Hostel&nbsp;&amp;&nbsp;Gymnasium</a>
+</li>
+</ul>
+</li>
+<li><span></span><span>&nbsp;Departments</span>
+<ul>
+<li><span></span><a href="./civil.html" target="_self" title="Civil Engineering">Civil&nbsp;Engineering</a>
+</li>
+<li><span></span><a href="./computer.html" target="_self" title="Computer Engineering">Computer&nbsp;Engineering</a>
+</li>
+<li><span></span><a href="./electrical.html" target="_self" title="Electrical Engineering">Electrical&nbsp;Engineering</a>
+</li>
+<li><span></span><a href="./mechanical.html" target="_self" title="Mechanical Engineering">Mechanical&nbsp;Engineering</a>
+</li>
+<li><span></span><a href="./applied_science.html" target="_self" title="Appiled Science">Appiled&nbsp;Science</a>
+</li>
+</ul>
+</li>
+<li><span></span><span>TPO&nbsp;Cell</span>
+<ul>
+<li><span></span><a href="./tpocell.html" target="_self" title="Trainning &amp; Placement">Trainning&nbsp;&amp;&nbsp;Placement</a>
+</li>
+<li><span></span><a href="./alumni.html" target="_self" title="Alumni">Alumni</a>
+</li>
+</ul>
+</li>
+<li><span></span><a href="./events.html" target="_self" title=" Events">&nbsp;Events</a>
+</li>
+<li><span></span><a href="./admission.html" target="_self" title=" Admissions">&nbsp;Admissions</a>
+</li>
+<li><span></span><a href="./committees.html" target="_self" title="Committees">Committees</a>
+</li>
+<li><span></span><a href="./MandatoryDisclosure-2019-20.pdf" target="_blank" title="Mandatory Disclosure">Mandatory&nbsp;Disclosure</a>
+</li>
+<li><span></span><a href="./downloads.html" target="_self" title="Downloads">Downloads</a>
+</li>
+<li><span></span><a href="./contact_us.html" target="_self" title="Contact Us    ">Contact&nbsp;Us&nbsp;&nbsp;&nbsp;&nbsp;</a>
+</li>
+</ul>
+</div>
+<script>
+var cmMenuBar1 =
+{
+   mainFolderLeft: '',
+   mainFolderRight: '',
+   mainItemLeft: '',
+   mainItemRight: '',
+   folderLeft: '',
+   folderRight: '',
+   itemLeft: '',
+   itemRight: '',
+   mainSpacing: 0,
+   subSpacing: 0,
+   delay: 100,
+   offsetHMainAdjust: [0, 0],
+   offsetSubAdjust: [0, 0]
+};
+var cmMenuBar1HSplit = [_cmNoClick, '<td class="MenuBar1MenuSplitLeft"><div></div></td>' +
+                                       '<td class="MenuBar1MenuSplitText"><div></div></td>' +
+                                       '<td class="MenuBar1MenuSplitRight"><div></div></td>'];
+var cmMenuBar1MainVSplit = [_cmNoClick, '<div><table width="24" cellspacing="0"><tr><td class="MenuBar1HorizontalSplit">|</td></tr></table></div>'];
+var cmMenuBar1MainHSplit = [_cmNoClick, '<td colspan="3" class="MenuBar1MainSplitText"><div></div></td>'];
+cmMenuBar1.effect = new CMSlidingEffect(8);
+cmDrawFromText('MenuBar1', 'hbr', cmMenuBar1, 'MenuBar1');
+</script>
+</div>
+</div>
+<div id="PageHeader1" style="position:absolute;overflow:hidden;text-align:center;left:0px;top:0px;width:100%;height:159px;z-index:7777;">
+<div id="PageHeader1_Container" style="width:1180px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Image1" style="position:absolute;left:67px;top:0px;width:114px;height:114px;z-index:0;">
+<img src="images/Logo%20final.PNG" id="Image1" alt=""></div>
+<div id="wb_Image3" style="position:absolute;left:198px;top:0px;width:889px;height:146px;z-index:1;">
+<img src="images/img0091.png" id="Image3" alt=""></div>
+<div id="wb_Text8" style="position:absolute;left:586px;top:134px;width:198px;height:16px;z-index:2;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:13px;">(Since 1983)</span></div>
+<div id="wb_JavaScript1" style="position:absolute;left:57px;top:131px;width:282px;height:28px;z-index:3;">
+<div style="color:#FFFFFF;font-size:14px;font-family:Arial;font-weight:normal;font-style:normal;text-align:left;text-decoration:none" id="basicdate"></div>
+<script>
+   var now = new Date();
+   var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+   var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+   var date = ((now.getDate() < 10) ? "0" : "") + now.getDate();
+   var year = (now.getYear() < 1000) ? now.getYear() + 1900 : now.getYear();
+   today = days[now.getDay()] + ", " + months[now.getMonth()] + " " + date + ", " + year;
+   var basicdate = document.getElementById('basicdate');
+   basicdate.innerHTML = today;
+</script>
+
+
+</div>
+<div id="wb_Shape32" style="position:absolute;left:974px;top:129px;width:88px;height:26px;z-index:4;">
+<a href="http://webmail.polychopda.org"><img class="hover" src="images/img0360_hover.png" alt="" style="border-width:0;width:88px;height:26px;"><span><img src="images/img0360.png" id="Shape32" alt="" style="width:88px;height:26px;"></span></a></div>
+</div>
+</div>
+<div id="PageFooter1" style="position:absolute;overflow:hidden;text-align:center;left:0px;top:1693px;width:100%;height:222px;z-index:71;">
+<div id="PageFooter1_Container" style="width:1180px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Text3" style="position:absolute;left:35px;top:36px;width:290px;height:130px;z-index:5;">
+<span style="color:#FFFFFF;font-family:Verdana;font-size:13px;">Office&nbsp; :&nbsp;&nbsp; (02586) -222100 <br><br>Mobile :&nbsp;&nbsp;&nbsp; 9822021149<br><br>Email&nbsp;&nbsp; :&nbsp;&nbsp; vijay.borse061@gmail.com&nbsp;&nbsp;&nbsp; <br>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <br>Address : Yawal Road, Tal:Chopda, <br>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; Dist: Jalgaon,Pin:425107.<br></span></div>
+<div id="wb_Text7" style="position:absolute;left:558px;top:13px;width:89px;height:18px;z-index:6;">
+<span style="color:#FFA500;font-family:Arial;font-size:15px;"><strong>Quick Links</strong></span></div>
+<div id="wb_Text4" style="position:absolute;left:143px;top:13px;width:89px;height:18px;z-index:7;">
+<span style="color:#FFA500;font-family:Arial;font-size:15px;"><strong>Contact Us</strong></span></div>
+<div id="wb_Shape3" style="position:absolute;left:484px;top:67px;width:108px;height:28px;z-index:8;">
+<a href="./index.html"><img class="hover" src="images/img0094_hover.png" alt="TPO CELL" title="TPO CELL" style="border-width:0;width:108px;height:28px;"><span><img src="images/img0094.png" id="Shape3" alt="TPO CELL" title="TPO CELL" style="width:108px;height:28px;"></span></a></div>
+<div id="wb_Shape4" style="position:absolute;left:594px;top:67px;width:136px;height:28px;z-index:9;">
+<a href="./index.html"><img class="hover" src="images/img0095_hover.png" alt="Downloads" title="Downloads" style="border-width:0;width:136px;height:28px;"><span><img src="images/img0095.png" id="Shape4" alt="Downloads" title="Downloads" style="width:136px;height:28px;"></span></a></div>
+<div id="wb_Shape6" style="position:absolute;left:484px;top:97px;width:246px;height:28px;z-index:10;">
+<a href="./index.html" target="_blank"><img class="hover" src="images/img0096_hover.png" alt="Shikshan Shulk Samiti" title="Shikshan Shulk Samiti" style="border-width:0;width:246px;height:28px;"><span><img src="images/img0096.png" id="Shape6" alt="Shikshan Shulk Samiti" title="Shikshan Shulk Samiti" style="width:246px;height:28px;"></span></a></div>
+<div id="wb_Shape9" style="position:absolute;left:651px;top:128px;width:79px;height:28px;z-index:11;">
+<a href="http://mabte.com" target="_blank"><img class="hover" src="images/img0097_hover.png" alt="MSBTE" title="MSBTE" style="border-width:0;width:79px;height:28px;"><span><img src="images/img0097.png" id="Shape9" alt="MSBTE" title="MSBTE" style="width:79px;height:28px;"></span></a></div>
+<div id="wb_Shape8" style="position:absolute;left:576px;top:128px;width:73px;height:28px;z-index:12;">
+<a href="http://dtemaharashtra.org" target="_blank"><img class="hover" src="images/img0098_hover.png" alt="DTE" title="DTE" style="border-width:0;width:73px;height:28px;"><span><img src="images/img0098.png" id="Shape8" alt="DTE" title="DTE" style="width:73px;height:28px;"></span></a></div>
+<div id="wb_Shape7" style="position:absolute;left:484px;top:128px;width:90px;height:28px;z-index:13;">
+<a href="http://aicte-india.org" target="_blank"><img class="hover" src="images/img0099_hover.png" alt="AICTE" title="AICTE" style="border-width:0;width:90px;height:28px;"><span><img src="images/img0099.png" id="Shape7" alt="AICTE" title="AICTE" style="width:90px;height:28px;"></span></a></div>
+<div id="wb_Text12" style="position:absolute;left:874px;top:43px;width:298px;height:16px;z-index:14;">
+<span style="color:#FFFFFF;font-family:Verdana;font-size:13px;">Copyright @ polychopda.org 1983-2017</span></div>
+<div id="wb_Text11" style="position:absolute;left:875px;top:77px;width:264px;height:44px;z-index:15;">
+<span style="color:#FFFFFF;font-family:Verdana;font-size:12px;">Designed By: Gopal B Shimpi <br><br>Mob: 9029370273<br></span></div>
+<div id="wb_Image6" style="position:absolute;left:492px;top:173px;width:30px;height:29px;z-index:16;">
+<a href="http://facebook.com" target="_blank"><img src="images/intro-fb.png" id="Image6" alt="" title="Facebook"></a></div>
+<div id="wb_Image7" style="position:absolute;left:558px;top:173px;width:30px;height:29px;z-index:17;">
+<a href="http://youtube.com" target="_blank"><img src="images/YouTube.png" id="Image7" alt="" title="Youtube"></a></div>
+<div id="wb_Image8" style="position:absolute;left:621px;top:173px;width:30px;height:29px;z-index:18;">
+<img src="images/intro-in.png" id="Image8" alt=""></div>
+<div id="wb_Image9" style="position:absolute;left:690px;top:173px;width:30px;height:29px;z-index:19;">
+<a href="http://twitter.com" target="_blank"><img src="images/intro-tw.png" id="Image9" alt="" title="Twitter"></a></div>
+<div id="wb_Image10" style="position:absolute;left:207px;top:72px;width:25px;height:25px;z-index:20;">
+<img src="images/logowhatsaap.png" id="Image10" alt=""></div>
+<div id="wb_Shape2" style="position:absolute;left:576px;top:36px;width:154px;height:28px;z-index:21;">
+<a href="./MandatoryDisclouser.pdf" target="_blank"><img class="hover" src="images/img0100_hover.png" alt="Mandatory Disclosure" title="Mandatory Disclosure" style="border-width:0;width:154px;height:28px;"><span><img src="images/img0100.png" id="Shape2" alt="Mandatory Disclosure" title="Mandatory Disclosure" style="width:154px;height:28px;"></span></a></div>
+<div id="wb_Shape23" style="position:absolute;left:484px;top:37px;width:90px;height:28px;z-index:22;">
+<a href="./index.html"><img class="hover" src="images/img0101_hover.png" alt="Home" title="Home" style="border-width:0;width:90px;height:28px;"><span><img src="images/img0101.png" id="Shape23" alt="Home" title="Home" style="width:90px;height:28px;"></span></a></div>
+</div>
+</div>
+</body>
+</html>
