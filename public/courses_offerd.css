@@ -36,13 +36,13 @@ body
 {
    background-color: #4F81BD;
    background-image: none;
-   -moz-box-sizing: border-box;
    box-sizing: border-box;
 }
 #Image1
 {
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
    left: 0;
    top: 0;
    width: 100%;
@@ -51,6 +51,7 @@ body
 #Image3
 {
    border-width: 0;
+   margin: 0;
    left: 0;
    top: 0;
    width: 100%;
@@ -60,7 +61,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -68,6 +69,10 @@ body
 #wb_Text8 div
 {
    text-align: left;
+}
+#wb_Line2
+{
+   font-size: 0;
 }
 #Line2
 {
@@ -78,6 +83,7 @@ body
 #Image12
 {
    border-width: 0;
+   margin: 0;
    left: 0;
    top: 0;
    width: 100%;
@@ -86,6 +92,11 @@ body
 #Shape5
 {
    border-width: 0;
+   vertical-align: top;
+}
+#wb_Line4
+{
+   font-size: 0;
 }
 #Line4
 {
@@ -96,28 +107,33 @@ body
 #Shape10
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape11
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape13
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape15
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape16
 {
    border-width: 0;
+   vertical-align: top;
 }
 #wb_Text2 
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -130,7 +146,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -143,7 +159,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -156,7 +172,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -169,7 +185,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -182,7 +198,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -195,7 +211,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -208,7 +224,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -219,9 +235,10 @@ body
 }
 #Image2
 {
-   border: 1px #FFFFFF solid;
+   border: 1px solid #FFFFFF;
    border-radius: 3px;
-   padding: 0px 0px 0px 0px;
+   padding: 0;
+   margin: 0;
    left: 0;
    top: 0;
    width: 100%;
@@ -231,7 +248,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -265,12 +282,13 @@ body
 #Shape1
 {
    border-width: 0;
+   vertical-align: top;
 }
 #wb_Text3 
 {
    background-color: transparent;
    background-image: none;
-   border: 1px #FFA500 solid;
+   border: 1px solid #FFA500;
    border-radius: 2px;
    padding: 10px 10px 10px 10px;
    margin: 0;
@@ -284,7 +302,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -297,7 +315,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -331,6 +349,7 @@ body
 #Shape3
 {
    border-width: 0;
+   vertical-align: top;
 }
 #wb_Shape4 a img
 {
@@ -357,6 +376,7 @@ body
 #Shape4
 {
    border-width: 0;
+   vertical-align: top;
 }
 #wb_Shape6 a img
 {
@@ -383,6 +403,7 @@ body
 #Shape6
 {
    border-width: 0;
+   vertical-align: top;
 }
 #wb_Shape9 a img
 {
@@ -409,6 +430,7 @@ body
 #Shape9
 {
    border-width: 0;
+   vertical-align: top;
 }
 #wb_Shape8 a img
 {
@@ -435,6 +457,7 @@ body
 #Shape8
 {
    border-width: 0;
+   vertical-align: top;
 }
 #wb_Shape7 a img
 {
@@ -461,12 +484,13 @@ body
 #Shape7
 {
    border-width: 0;
+   vertical-align: top;
 }
 #wb_Text12 
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -479,7 +503,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -490,8 +514,9 @@ body
 }
 #Image6
 {
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
    left: 0;
    top: 0;
    width: 100%;
@@ -499,8 +524,9 @@ body
 }
 #Image7
 {
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
    left: 0;
    top: 0;
    width: 100%;
@@ -508,8 +534,9 @@ body
 }
 #Image8
 {
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
    left: 0;
    top: 0;
    width: 100%;
@@ -517,8 +544,9 @@ body
 }
 #Image9
 {
-   border: 0px #000000 solid;
-   padding: 0px 0px 0px 0px;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
    left: 0;
    top: 0;
    width: 100%;
@@ -549,6 +577,7 @@ body
 #Shape2
 {
    border-width: 0;
+   vertical-align: top;
 }
 #wb_Shape23 a img
 {
@@ -575,6 +604,7 @@ body
 #Shape23
 {
    border-width: 0;
+   vertical-align: top;
 }
 #MenuBar1
 {
@@ -815,7 +845,7 @@ body
 .MenuBar1MenuItem .MenuBar1MenuSplitLeft
 {
    height: 7px;
-   padding: 0px 0px 0px 0px;
+   padding: 0;
 }
 .MenuBar1MenuItem .MenuBar1MenuSplitText
 {
@@ -826,7 +856,7 @@ body
 .MenuBar1MenuItem .MenuBar1MenuSplitRight
 {
    height: 7px;
-   padding: 0px 0px 0px 0px;
+   padding: 0;
 }
 .MenuBar1MainSplitText div
 {
@@ -838,18 +868,18 @@ body
 .MenuBar1MainItem .MenuBar1MainSplitLeft 
 {
    height: 15px;
-   padding: 0px 0px 0px 0px;
+   padding: 0;
 }
 .MenuBar1MainItem .MenuBar1MainSplitText
 {
    background-color: #102A35;
    height: 15px;
-   padding: 0px 0px 0px 0px;
+   padding: 0;
 }
 .MenuBar1MainItem .MenuBar1MainSplitRight
 {
    height: 15px;
-   padding: 0px 0px 0px 0px;
+   padding: 0;
 }
 .MenuBar1MainItem
 {
@@ -883,10 +913,22 @@ body
    border: 0;
    font-size: 1px;
 }
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
 #PageFooter1
 {
    background-color: #102A35;
    background-image: none;
-   -moz-box-sizing: border-box;
    box-sizing: border-box;
 }

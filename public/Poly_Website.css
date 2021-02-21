@@ -1,19 +1,30 @@
 a
 {
-   color: #4169E1;
+   color: #0000FF;
    text-decoration: none;
+}
+a:visited
+{
+   color: #1E90FF;
 }
 a:hover
 {
    color: #FFA500;
    text-decoration: underline;
 }
-h1
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+.visibility-hidden
+{
+   visibility: hidden;
+}
+h1, .h1
 {
    font-family: Arial;
    font-weight: bold;
    font-size: 32px;
-   font-style: normal;
    text-decoration: none;
    color: #000000;
    background-color: transparent;
@@ -21,12 +32,11 @@ h1
    padding: 0px 0px 0px 0px;
    display: inline;
 }
-h2
+h2, .h2
 {
    font-family: Arial;
    font-weight: bold;
    font-size: 27px;
-   font-style: normal;
    text-decoration: none;
    color: #000000;
    background-color: transparent;
@@ -34,12 +44,10 @@ h2
    padding: 0px 0px 0px 0px;
    display: inline;
 }
-h3
+h3, .h3
 {
    font-family: Arial;
-   font-weight: normal;
    font-size: 24px;
-   font-style: normal;
    text-decoration: none;
    color: #000000;
    background-color: transparent;
@@ -47,10 +55,9 @@ h3
    padding: 0px 0px 0px 0px;
    display: inline;
 }
-h4
+h4, .h4
 {
    font-family: Arial;
-   font-weight: normal;
    font-size: 21px;
    font-style: italic;
    text-decoration: none;
@@ -60,12 +67,10 @@ h4
    padding: 0px 0px 0px 0px;
    display: inline;
 }
-h5
+h5, .h5
 {
    font-family: Arial;
-   font-weight: normal;
    font-size: 19px;
-   font-style: normal;
    text-decoration: none;
    color: #000000;
    background-color: transparent;
@@ -73,12 +78,10 @@ h5
    padding: 0px 0px 0px 0px;
    display: inline;
 }
-h6
+h6, .h6
 {
    font-family: Arial;
-   font-weight: normal;
    font-size: 16px;
-   font-style: normal;
    text-decoration: none;
    color: #000000;
    background-color: transparent;
@@ -91,7 +94,6 @@ h6
    font-family: "Courier New";
    font-weight: bold;
    font-size: 16px;
-   font-style: normal;
    text-decoration: none;
    color: #000080;
    background-color: transparent;

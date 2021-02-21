@@ -17,7 +17,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 1px #000000 solid;
+   border: 1px solid #000000;
    padding: 10px 10px 10px 10px;
    margin: 0;
    text-align: left;
@@ -30,12 +30,13 @@ body
 {
    background-color: #102A35;
    background-image: none;
-   border: 0px #1E90FF solid;
+   border: 0px solid #1E90FF;
    color: #FFFFFF;
    font-family: Arial;
    font-weight: bold;
    font-size: 17px;
    text-align: center;
+   margin: 0;
 }
 #Banner9 span
 {
@@ -63,10 +64,11 @@ body
 }
 #wb_BulletedList4
 {
-   border: 0px #C0C0C0 solid;
+   border: 0px solid #C0C0C0;
    border-radius: 2px;
    background-color: transparent;
    background-image: none;
+   margin: 0;
 }
 #wb_BulletedList4 .bullet
 {
@@ -127,7 +129,7 @@ body
 {
    background-color: transparent;
    background-image: none;
-   border: 0px #000000 solid;
+   border: 0px solid #000000;
    padding: 0;
    margin: 0;
    text-align: justify;
@@ -138,10 +140,11 @@ body
 }
 #wb_BulletedList5
 {
-   border: 0px #C0C0C0 solid;
+   border: 0px solid #C0C0C0;
    border-radius: 2px;
    background-color: transparent;
    background-image: none;
+   margin: 0;
 }
 #wb_BulletedList5 .bullet
 {
@@ -198,6 +201,10 @@ body
    height: 20px;
    text-align: left;
 }
+#wb_Line5
+{
+   font-size: 0;
+}
 #Line5
 {
    border-width: 0;
@@ -207,8 +214,10 @@ body
 #Shape17
 {
    border-width: 0;
+   vertical-align: top;
 }
 #Shape18
 {
    border-width: 0;
+   vertical-align: top;
 }
