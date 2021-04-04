@@ -373,16 +373,6 @@ body
    width: 100%;
    height: 100%;
 }
-#Image10
-{
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #wb_Shape2 a img
 {
    position: absolute;
@@ -546,35 +536,6 @@ body
    text-align: left;
 }
 #wb_Text43 div
-{
-   text-align: left;
-}
-#Shape16
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#Image4
-{
-   border: 1px solid #FFFFFF;
-   border-radius: 4px;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
-#wb_Text14 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text14 div
 {
    text-align: left;
 }
@@ -1079,34 +1040,6 @@ body
    width: 100%;
    height: 100%;
 }
-#Shape1
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#wb_Text6 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text6 div
-{
-   text-align: left;
-}
-#Image13
-{
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-}
 #Shape18
 {
    border-width: 0;
@@ -1136,12 +1069,21 @@ body
    width: 100%;
    height: 100%;
 }
-#Shape19
+#Picture1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Shape1
 {
    border-width: 0;
    vertical-align: top;
 }
-#wb_Text17 
+#wb_Text6 
 {
    background-color: transparent;
    background-image: none;
@@ -1150,11 +1092,26 @@ body
    margin: 0;
    text-align: left;
 }
-#wb_Text17 div
+#wb_Text6 div
 {
    text-align: left;
 }
-#Image17
+#Image13
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#Shape16
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#Image4
 {
    border: 1px solid #FFFFFF;
    border-radius: 4px;
@@ -1165,14 +1122,18 @@ body
    width: 100%;
    height: 100%;
 }
-#Picture1
+#wb_Text14 
 {
+   background-color: transparent;
+   background-image: none;
    border: 0px solid #000000;
    padding: 0;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text14 div
+{
+   text-align: left;
 }
 #PageFooter1
 {
