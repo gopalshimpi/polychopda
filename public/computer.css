@@ -507,33 +507,6 @@ body
 {
    text-align: left;
 }
-#wb_Shape25 a img
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape25 span
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape25 a .hover
-{
-   visibility: hidden;
-}
-#wb_Shape25 a:hover .hover
-{
-   visibility: visible;
-}
-#wb_Shape25 a:hover span
-{
-   visibility: hidden;
-}
-#Shape25
-{
-   border-width: 0;
-   vertical-align: top;
-}
 #Shape10
 {
    border-width: 0;
@@ -999,6 +972,34 @@ body
    padding: 0;
    border: 0;
    font-size: 1px;
+}
+#Shape2
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#wb_Text17 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text17 div
+{
+   text-align: left;
+}
+#Image10
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
 #PageFooter1
 {
