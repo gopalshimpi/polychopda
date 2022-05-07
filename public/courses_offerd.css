@@ -6,13 +6,13 @@ div#space
 {
    width: 1px;
    height: 50%;
-   margin-bottom: -568px;
+   margin-bottom: -811px;
    float:left
 }
 div#container
 {
    width: 1180px;
-   height: 1136px;
+   height: 1622px;
    margin: 0 auto;
    position: relative;
    clear: left;
@@ -324,87 +324,6 @@ body
 {
    text-align: left;
 }
-#wb_Shape3 a img
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape3 span
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape3 a .hover
-{
-   visibility: hidden;
-}
-#wb_Shape3 a:hover .hover
-{
-   visibility: visible;
-}
-#wb_Shape3 a:hover span
-{
-   visibility: hidden;
-}
-#Shape3
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#wb_Shape4 a img
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape4 span
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape4 a .hover
-{
-   visibility: hidden;
-}
-#wb_Shape4 a:hover .hover
-{
-   visibility: visible;
-}
-#wb_Shape4 a:hover span
-{
-   visibility: hidden;
-}
-#Shape4
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#wb_Shape6 a img
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape6 span
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape6 a .hover
-{
-   visibility: hidden;
-}
-#wb_Shape6 a:hover .hover
-{
-   visibility: visible;
-}
-#wb_Shape6 a:hover span
-{
-   visibility: hidden;
-}
-#Shape6
-{
-   border-width: 0;
-   vertical-align: top;
-}
 #wb_Shape9 a img
 {
    position: absolute;
@@ -551,60 +470,6 @@ body
    top: 0;
    width: 100%;
    height: 100%;
-}
-#wb_Shape2 a img
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape2 span
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape2 a .hover
-{
-   visibility: hidden;
-}
-#wb_Shape2 a:hover .hover
-{
-   visibility: visible;
-}
-#wb_Shape2 a:hover span
-{
-   visibility: hidden;
-}
-#Shape2
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#wb_Shape23 a img
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape23 span
-{
-   position: absolute;
-   left: 0;
-}
-#wb_Shape23 a .hover
-{
-   visibility: hidden;
-}
-#wb_Shape23 a:hover .hover
-{
-   visibility: visible;
-}
-#wb_Shape23 a:hover span
-{
-   visibility: hidden;
-}
-#Shape23
-{
-   border-width: 0;
-   vertical-align: top;
 }
 #MenuBar1
 {
@@ -913,6 +778,19 @@ body
    border: 0;
    font-size: 1px;
 }
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text6 div
+{
+   text-align: left;
+}
 #wb_Text1 
 {
    background-color: transparent;
@@ -925,6 +803,29 @@ body
 #wb_Text1 div
 {
    text-align: left;
+}
+#wb_Text13 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text13 div
+{
+   text-align: left;
+}
+#Image4
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
 #PageFooter1
 {
